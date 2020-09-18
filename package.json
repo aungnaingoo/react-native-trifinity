@@ -1,0 +1,37 @@
+{
+  "name": "react-native-trifinity",
+  "version": "0.0.1",
+  "description": "Essential React Native components for trifinity projects",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aungnaingoo/react-native-trifinity.git"
+  },
+  "author": "Aung Naing Oo <aungnaingoo.mhs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
