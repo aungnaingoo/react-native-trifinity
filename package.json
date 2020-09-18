@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Essential React Native components for trifinity projects",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
