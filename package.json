@@ -1,6 +1,6 @@
 {
   "name": "react-native-trifinity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Essential React Native components for trifinity projects",
   "main": "index.js",
   "scripts": {
