@@ -37,9 +37,9 @@ export function indexOfByKey(obj_list, key, value) {
 }
 
 export function sum(arr, key) {
-    return arr.reduce((a, b) => {
-        return a[key] + b[key]
-    })
+    return arr.length > 0 ? (arr.reduce((a, b) => {
+        return { [key]: a[key] + b[key] }
+    }))[key] : 0
 }
 
 export function groupBy(xs, key) {
